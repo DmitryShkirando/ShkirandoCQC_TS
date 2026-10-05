@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+     "rootDir": "./",
+     "outDir": "./out",
+     "experimentalDecorators": true,
+     "noImplicitAny": false,
+
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "es2025",
+    "types": ["node"],
+    
+    "sourceMap": false,
+    "declaration":false,
+    "declarationMap": false,
+    
+    "useDefineForClassFields": false,
+
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": true,
+
+    "rewriteRelativeImportExtensions": true,
+    "allowImportingTsExtensions": true,
+
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  },
+
+  "ts-node": {
+    "esm": true,
+    "experimentalResolver": true
+  }
+}
